@@ -1,0 +1,8 @@
+cat > .gitignore << EOF
+node_modules/
+dist/
+.env
+.vite/
+*.log
+.vscode/
+EOF
