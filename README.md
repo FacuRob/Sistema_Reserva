@@ -1,22 +1,40 @@
-# 📍 Sistema de Reservas de Escritorios - DeskFlow
+# 📍 Sistema de Reservas de Escritorios - Coworking Express
 
-Sistema web completo para la gestión de reservas de escritorios en espacios de coworking. Permite a los usuarios reservar escritorios por hora y a los administradores gestionar los espacios disponibles.
+Sistema web completo para la gestión de reservas de escritorios en espacios de coworking. Permite a los usuarios reservar escritorios por fecha y hora.
 
 ## 🚀 Tecnologías Utilizadas
 
-### Backend
-- **Node.js** con Express
-- **PostgreSQL** como base de datos
-- **JWT** para autenticación
-- **bcryptjs** para encriptación de contraseñas
-- **pg** para conexión con PostgreSQL
+### 🛠️ Stack Tecnológico
 
-### Frontend
-- **React** 18
-- **Vite** como build tool
-- **React Router DOM** para navegación
-- **Tailwind CSS** v3 para estilos
-- **Axios** para peticiones HTTP
+#### Frontend
+<div align="left">
+  <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-B73BFE?style=for-the-badge&logo=vite&logoColor=FFD62E" alt="Vite" />
+  <img src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Router" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
+  <img src="https://img.shields.io/badge/Axios-5A29E4?style=for-the-badge&logo=axios&logoColor=white" alt="Axios" />
+</div>
+
+* **React 18**: Librería principal para la interfaz de usuario.
+* **Vite**: Herramienta de construcción rápida para el frontend.
+* **React Router DOM**: Manejo de rutas y navegación dinámica.
+* **Tailwind CSS v3**: Framework de estilos basado en utilidades.
+* **Axios**: Cliente HTTP para el consumo de la API.
+
+#### Backend
+<div align="left">
+  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white" alt="Express" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/JWT-black?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white" alt="JWT" />
+  <img src="https://img.shields.io/badge/bcryptjs-orange?style=for-the-badge" alt="bcryptjs" />
+</div>
+
+* **Node.js & Express**: Entorno de ejecución y framework para la API.
+* **PostgreSQL**: Sistema de gestión de base de datos relacional.
+* **JWT (JSON Web Tokens)**: Implementación de seguridad y sesiones.
+* **bcryptjs**: Encriptación de contraseñas de usuario.
+* **node-postgres (pg)**: Driver cliente para la comunicación con la base de datos.
 
 ## 📋 Prerequisitos
 
@@ -112,7 +130,7 @@ DB_PORT=5432
 DB_USER=postgres
 DB_PASSWORD=tu_password
 DB_NAME=reserva_escritorio
-JWT_SECRET=tu_secreto_super_seguro_hace_el_cambio
+JWT_SECRET=tu_secreto_super_secreto_hace_el_cambio
 JWT_EXPIRES_IN=7d
 ```
 
